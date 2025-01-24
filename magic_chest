@@ -1,0 +1,9 @@
+from random import randint
+
+weapons = ['лук', 'меч', 'топор', 'магический посох', 'волшебная палочка', 'копье', 'свиток заклинаний']
+
+id = randint(0, len(weapons))
+
+power = randint(1, 100)
+
+print(f'Поздравляем! Вам выпал {weapons[id]}, мощность: {power}')
